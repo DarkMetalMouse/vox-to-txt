@@ -3,7 +3,7 @@ import sys
 try:
     from pyvox.parser import VoxParser
 except ImportError:
-    print("Dependenncies not installed.\nPlease run \"pip install -r requirements.txt\"")
+    print("Dependencies not installed.\nPlease run \"pip install -r requirements.txt\"")
 
 if __name__ == '__main__':
     if len(sys.argv) < 2 or len(sys.argv) > 3:
